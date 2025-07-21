@@ -1,0 +1,5 @@
+<input type="text" placeholder="Search products..." [(ngModel)]="searchTerm" (input)="onSearch()" />
+
+<div class="product-grid">
+  <app-product-card *ngFor="let product of filteredProducts" [product]="product"></app-product-card>
+</div>
