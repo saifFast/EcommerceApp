@@ -4,4 +4,6 @@ export interface Product
     name: string;
     price : number;
     imageUrl?: string;
+    categoryId: number;
+    disPlayCategory?: string;
 }

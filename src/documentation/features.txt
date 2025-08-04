@@ -1,0 +1,5 @@
+1: Product List
+2: Categories
+3: Cart
+4: Back Office to add product/update/add category/update/remove/fetch
+5: Authentication
